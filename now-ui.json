@@ -1,0 +1,26 @@
+{
+	"components": {
+	    "snc-cips-now": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "My Component",
+				"icon": "document-outline",
+				"description": "A description of my component",
+				"category": "primitives"
+			},
+            "properties": [
+                {
+                    "name": "text",
+                    "label": "Text",
+                    "description": "",
+                    "readOnly": false,
+                    "fieldType": "string",
+                    "required": true,
+                    "defaultValue": "Here is some default text"
+                }
+            ]
+	    }
+	},
+	"scopeName": "x_snc_infra_capaci"
+}
